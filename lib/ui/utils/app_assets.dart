@@ -2,7 +2,8 @@ class AppAssets {
   static const String splashIcon = "assets/images/splashIcon.png";
   static const String drawerIcon = "assets/images/drawerIcon.png";
   static const String themesIcon = "assets/images/themesIcon.png";
-  static const String ringtoneCutterIcon = "assets/images/ringtoneCutterIcon.png";
+  static const String ringtoneCutterIcon =
+      "assets/images/ringtoneCutterIcon.png";
   static const String sleepTimerIcon = "assets/images/sleepTimerIcon.png";
   static const String equliserIcon = "assets/images/equliserIcon.png";
   static const String driveModeIcon = "assets/images/driveModeIcon.png";
@@ -11,4 +12,36 @@ class AppAssets {
   static const String homeIcon = "assets/images/homeIcon.png";
   static const String songsIcon = "assets/images/songsIcon.png";
   static const String settingsIcon = "assets/images/setingsIcon.png";
+  static const String playIcon = "assets/images/playIcon.png";
+  static const String heart = "assets/images/heart.png";
+  static const String star = "assets/images/star.png";
+  static const String test1 = "assets/images/test1.png";
+  static const String test2 = "assets/images/test2.png";
+  static const String test3 = "assets/images/test3.png";
+  static const String test4 = "assets/images/test4.png";
+  static const String test6 = "assets/images/test6.png";
+  static const String alb4 = "assets/images/test5.png";
+  static const String alb5 = "assets/images/alb5.png";
+  static const String alb6 = "assets/images/alb6.png";
+  static const String alb3 = "assets/images/alb3.png";
+  static const String alb2 = "assets/images/alb2.png";
+  static const String alb1 = "assets/images/alb1.png";
+  static const String pl1 = "assets/images/pl1.png";
+  static const String pl2 = "assets/images/pl2.png";
+  static const String pl3 = "assets/images/pl3.png";
+  static const String pl4 = "assets/images/pl4.png";
+  static const String g1 = "assets/images/g1.png";
+  static const String g2 = "assets/images/g2.png";
+  static const String g3 = "assets/images/g3.png";
+  static const String g4 = "assets/images/g4.png";
+  static const String g5 = "assets/images/g5.png";
+  static const String g6 = "assets/images/g6.png";
+  static const String g7 = "assets/images/g7.png";
+  static const String g8 = "assets/images/g8.png";
+  static const String displayIcon = "assets/images/displayIcon.png";
+  static const String audioIcon = "assets/images/audioIcon.png";
+  static const String headsetIcon = "assets/images/headsetIcon.png";
+  static const String lockIcon = "assets/images/lockIcon.png";
+  static const String advancedIcon = "assets/images/advancedIcon.png";
+  static const String otherIcon = "assets/images/otherIcon.png";
 }

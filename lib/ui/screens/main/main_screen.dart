@@ -8,19 +8,21 @@ import 'package:muzic/ui/utils/app_colors.dart';
 class MainScreen extends StatefulWidget {
   static const String routeName = "MainScreen";
 
+  const MainScreen({super.key});
+
   @override
   State<MainScreen> createState() => _MainScreenState();
 }
 
 class _MainScreenState extends State<MainScreen> {
   int currentIndex = 0;
-  List<String> title = ["Home","Songs","Settings"];
-  List<Widget> tabs = [HomeTab(),SongsTab(),SettingsTab()];
+  List<String> title = ["Home", "Songs", "Settings"];
+  List<Widget> tabs = [const HomeTab(), const SongsTab(), const SettingsTab()];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.Ko7le,
+      backgroundColor: AppColors.ko7le,
       body: tabs[currentIndex],
       drawer: Drawer(
         width: MediaQuery.sizeOf(context).width * 0.75,
@@ -328,17 +330,17 @@ class _MainScreenState extends State<MainScreen> {
         ),
       ),
       appBar: AppBar(
-        backgroundColor: AppColors.Ko7le,
-       centerTitle: true,
-       title:  Text(
-         "${title[currentIndex]}",
-         style: TextStyle(
-           fontFamily: 'Circular Std',
-           fontSize: 20,
-           fontWeight: FontWeight.normal,
-           color: AppColors.white.withOpacity(0.8),
-         ),
-       ),
+        backgroundColor: AppColors.ko7le,
+        centerTitle: true,
+        title: Text(
+          title[currentIndex],
+          style: TextStyle(
+            fontFamily: 'Circular Std',
+            fontSize: 20,
+            fontWeight: FontWeight.normal,
+            color: AppColors.white.withOpacity(0.8),
+          ),
+        ),
         leading: Builder(
           builder: (context) {
             return IconButton(
@@ -351,18 +353,21 @@ class _MainScreenState extends State<MainScreen> {
           },
         ),
         actions: [
-          currentIndex!=2 ? IconButton(
-              onPressed: (){},
-              icon:  Icon(Icons.search,
-                color: AppColors.white.withOpacity(0.5),
-                size: 30,
-              ),
-          ) : SizedBox(),
+          currentIndex != 2
+              ? IconButton(
+                  onPressed: () {},
+                  icon: Icon(
+                    Icons.search,
+                    color: AppColors.white.withOpacity(0.5),
+                    size: 30,
+                  ),
+                )
+              : const SizedBox(),
         ],
         iconTheme: const IconThemeData(color: AppColors.white),
       ),
       bottomNavigationBar: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           boxShadow: <BoxShadow>[
             BoxShadow(
               color: Colors.black,
@@ -384,11 +389,11 @@ class _MainScreenState extends State<MainScreen> {
             selectedIconTheme: const IconThemeData(
               color: AppColors.primary,
             ),
-            unselectedLabelStyle: TextStyle(
+            unselectedLabelStyle: const TextStyle(
               fontFamily: 'Circular Std',
               fontSize: 12,
             ),
-            selectedLabelStyle: TextStyle(
+            selectedLabelStyle: const TextStyle(
               fontFamily: 'Circular Std',
               fontSize: 12,
             ),
