@@ -1,16 +1,23 @@
-# muzic
+# Muzic App
 
-A new Flutter project.
+## Description
+The Muzic App is a mobile application built using Flutter that allows users to enjoy a seamless music experience. The app focuses on a clean UI and an engaging user experience.
 
-## Getting Started
+## Features
+1. Responsive UI: The app features a responsive design that adapts well to different screen sizes.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- Flutter
+- Dart
+- MVVM
+- Cubit (for state management)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+<img src="screenshots/splash.png" width="200" height="400" />  <img src="screenshots/drawer.png" width="200" height="400" />  <img src="screenshots/home1.png" width="200" height="400" />  <img src="screenshots/home2.png" width="200" height="400" />  <img src="screenshots/allSongs.png" width="200" height="400" /> <img src="screenshots/playlists.png" width="200" height="400" /> <img src="screenshots/albums.png" width="200" height="400" /> <img src="screenshots/artists.png" width="200" height="400" />  <img src="screenshots/genres.png" width="200" height="400" /> <img src="screenshots/settings.png" width="200" height="400" /> 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Contact
+If you have any questions or feedback, please feel free to reach out to the project maintainers:
+- Ahmed Mohsen : ahmedmohsen2492@gmail.com
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
